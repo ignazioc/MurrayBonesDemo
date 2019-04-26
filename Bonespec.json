@@ -16,6 +16,6 @@
       "name" : "podspec"
     }
   ],
-  "name" : "Bones",
+  "name" : "MurrayBonesDemo",
   "sourcesBaseFolder" : "Sources/Bones"
 }
