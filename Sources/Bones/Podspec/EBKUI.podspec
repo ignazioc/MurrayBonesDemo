@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
   s.swift_version = '4.2'
 
   s.frameworks = 'UIKit'
-  s.source_files = 'EBKUI/Classes/**/*'  
+  s.source_files = '{{ name }}/Classes/**/*'  
   s.resource_bundles = {
-    'Images' => ['EBKUI/Assets/**/*']
+    'Images' => ['{{ name }}/Assets/**/*']
   }
  
-  s.public_header_files = 'EBKUI/Classes/**/*.h'
+  s.public_header_files = '{{ name }}/Classes/**/*.h'
 end
